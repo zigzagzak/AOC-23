@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const input = fs.readFileSync('./input.txt', 'utf8').split('\r\n');
+const input = fs.readFileSync('./test.txt', 'utf8').split('\r\n');
 
 // pt1
 // const cards = input.map((line) => line.split(': ')[1])
